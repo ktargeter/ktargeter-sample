@@ -1,20 +1,7 @@
-buildscript {
-    repositories {
-        mavenCentral()
-        mavenLocal()
-    }
-    dependencies {
-        classpath "ktargeter:gradle-plugin:0.1.0"
-    }
-}
-
-
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.4.21'
-    id "maven"
+    id 'ktargeter.plugin' version '0.1.0'
 }
-
-apply plugin: "ktargeter.plugin"
 
 group 'ktargeter'
 version '1.0-SNAPSHOT'
