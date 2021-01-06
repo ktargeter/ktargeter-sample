@@ -17,7 +17,9 @@ dependencies {
 
 ktargeter {
     enabled = true
-    annotations = ["sample.SampleAnnotation"]
+    annotations = [
+            "sample.SampleAnnotation": "get"
+    ]
 }
 
 jar {
