@@ -32,3 +32,8 @@ jar {
         }
     }
 }
+
+
+compileKotlin {
+    kotlinOptions.useIR = true
+}
