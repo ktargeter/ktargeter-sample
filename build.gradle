@@ -18,7 +18,9 @@ dependencies {
 ktargeter {
     enabled = true
     annotations = [
-            "sample.SampleAnnotation": "get"
+            "com.sample.AnnotationOne"  : "get",
+            "com.sample.AnnotationTwo"  : "field",
+            "com.sample.AnnotationThree": "set"
     ]
 }
 

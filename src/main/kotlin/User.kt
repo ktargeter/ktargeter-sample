@@ -1,10 +1,12 @@
-package sample
+package com.sample
 
 data class User(
-    @SampleAnnotation
+    @AnnotationOne
+    @AnnotationTwo
+    @AnnotationThree
     val firstName: String,
-    @SampleAnnotation
-    val lastName: String,
-    @SampleAnnotation
-    val active: Boolean,
+    @AnnotationOne
+    @AnnotationTwo
+    @AnnotationThree
+    var lastName: String
 )
