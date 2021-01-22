@@ -1,6 +1,6 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.4.21'
-    id 'ktargeter.plugin' version '0.1.0'
+    id 'org.ktargeter' version '0.1.0'
 }
 
 group 'ktargeter'
